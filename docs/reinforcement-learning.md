@@ -231,13 +231,6 @@ in the CF matrix to be changed), the trainer will call `env.increment_phase()` s
 of the next hardest difficulty (two steps away from a solution). This process repeats as the agent again increases its
 win-rate on those now more difficult problems.
 
-To gradually have the agent learn how to fulfill a specification by manipulating the CF matrix, the reinforcement
-learning environment implements curriculum learning (more specifically: [vanilla CL](https://arxiv.org/abs/2101.10382)).
-In our setup, once the agent achieves a certain win-rate threshold on problems of the easiest difficulty (only one entry
-in the CF matrix to be changed), the trainer will call `env.increment_phase()` such that all following episodes are now
-of the next hardest difficulty (two steps away from a solution). This process repeats as the agent again increases its
-win-rate on those now more difficult problems.
-
 #### Hyperparameter Optimisation (HPO)
 
 The [Asynchronous Hyperband Scheduler](https://arxiv.org/abs/1810.05934) is
