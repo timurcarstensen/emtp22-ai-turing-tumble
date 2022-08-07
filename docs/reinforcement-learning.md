@@ -171,8 +171,6 @@ This results in the following Turing Tumble Board which, as can be seen, fulfils
 <em>The solution of the challenge visualised</em>
 </p>
 
-##                
-
 ## 2. Technical Implementation <a name="technical-implementation"></a>
 
 #### Openai-Gym Environment
