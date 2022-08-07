@@ -60,7 +60,7 @@ in this project rely on wandb for logging. For the following you will need a wan
 ## Running the project
 
 > DISCLAIMER: the number of bugs used in pretraining, reinforcement learning, and the environment configuration **must**
-> be the same
+> be the same.
 > To run the individual parts of the final project pipeline, follow the steps outlined below.
 
 > DISCLAIMER: the generation of Pretraining and RL training sets may take some time for *num_bugs > 6* and a large
