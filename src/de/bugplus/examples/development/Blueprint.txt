@@ -1,0 +1,18 @@
+package de.bugplus.examples.development;
+
+import de.bugplus.development.*;
+import de.bugplus.specification.BugplusLibrary;
+import de.bugplus.specification.BugplusProgramSpecification;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Challenge {
+    public static void main(String[] args){
+        BugplusLibrary myFunctionLibrary = BugplusLibrary.getInstance();
+        BugplusNEGImplementation negImpl = BugplusNEGImplementation.getInstance();
+        myFunctionLibrary.addSpecification(negImpl.getSpecification());
+
+        //CODE HERE
+    }
+}
