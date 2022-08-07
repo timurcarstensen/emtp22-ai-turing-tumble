@@ -38,7 +38,7 @@ upload to the Jesse Crossen GUI.
 | `translators/assets/defaultState.png`            | The standard TT board.                                                                                                                                                                            |
 | `translators/assets/newDefaultState.png`         | 'Reduced' TT board with only one marble colour. Used in our RL pipeline.                                                                                                                          |
 
-### Setup and Run Instructions <a name="setup-and-run"></a> [ADD TUTORIAL VIDEOS HERE??]
+### Setup and Run Instructions <a name="setup-and-run"></a>
 
 #### T1: From Matrix to Board
 
